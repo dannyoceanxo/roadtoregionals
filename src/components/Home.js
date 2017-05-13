@@ -5,15 +5,14 @@ class Home extends Component {
     return <div>
       <div className='introtext'>
         <h1>So you want to make Regionals?</h1>
-        <h2>Choose your level of experience</h2>
       </div>
-      <div className='experienceLevel'>
-        <p>Never done CrossFit before?  Start here for a beginner's introduction</p>
+      <div className='experiencedAthlete'>
         <p>Experienced CrossFit athlete?  Start here to input your past Open scores</p>
-      </div>
-      <div className='submitButtons'>
-        <button className='noviceButton' onClick=''>Click here</button>
         <button className='experiencedButton' onClick=''>Click here</button>
+      </div>
+      <div className='noviceAthlete'>
+        <p>New to CrossFit?  Check out these resources to get started</p>
+        <button className='noviceButton' onClick=''>Click here</button>
       </div>
       <div className='homePhotos'>
         <img src='/images/crossfitlogo.png' width='400px' />

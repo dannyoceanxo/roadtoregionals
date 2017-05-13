@@ -1,23 +1,50 @@
 import React, { Component } from 'react'
 
+class App extends Component {
+  render () {
+    return <div>
+      <div className='noviceIntro'>
+        <h1>Never done CrossFit before?  Here are some good resources to start</h1>
+      </div>
+      <div className='cf813'>
+        <a href='http://crossfit813.com'><img src='/images/cf813.jpg' height='205px' width='215px' border-radius='2em' /></a>
+      </div>
+      <div className='cigarLogo'>
+        <a href='http://cigarcitycrossfit.com'><img src='/images/cigarcity.png' height='205px' width='215px' /></a>
+      </div>
+      <div className='mobility'>
+        <h2>Here's are some great places to work on your mobility</h2>
+        <div className='camp'>
+          <a href='http://camptampa.com'><img src='/images/camp.png' /></a>
+        </div>
+      </div>
+    </div>
+  }
+  }
+
 // class App extends Component {
 //  render () {
 //    return <div>
 //      <div className='introtext'>
 //        <h1>So you want to make Regionals?</h1>
-//        <h2>Choose your level of experience</h2>
 //      </div>
-//      <div className='experienceLevel'>
-//        <p>Never done CrossFit before?  Start here for a beginner's introduction</p>
+//      <div className='experiencedAthlete'>
 //        <p>Experienced CrossFit athlete?  Start here to input your past Open scores</p>
+//        <div className='gamesLogo'>
+//          <img src='/images/gameslogo.svg' />
+//        </div>
+//        <div className='experiencedButton'>
+//          <button className='experiencedButton' onClick=''>Click here</button>
+//        </div>
 //      </div>
-//      <div className='submitButtons'>
-//        <button className='noviceButton' onClick=''>Click here</button>
-//        <button className='experiencedButton' onClick=''>Click here</button>
-//      </div>
-//      <div className='homePhotos'>
-//        <img src='/images/crossfitlogo.png' width='400px' />
-//        <img src='/images/gameslogo.svg' />
+//      <div className='noviceAthlete'>
+//        <p>New to CrossFit?  Check out these resources to get started</p>
+//        <div className='cfLogo'>
+//          <img src='/images/crossfitlogo.png' />
+//        </div>
+//        <div className='noviceSelection'>
+//          <button className='noviceButton' onClick=''>Click here</button>
+//        </div>
 //      </div>
 //      <div className='cigarLogo'>
 //        <a href='http://cigarcitycrossfit.com'><img src='/images/cigarcity.png' height='205px' width='215px' /></a>
@@ -28,15 +55,5 @@ import React, { Component } from 'react'
 //    </div>
 //  }
 // }
-
-class App extends Component {
-  render () {
-    return <div>
-      <div className='noviceIntro'>
-        <h1>Never done CrossFit before?  Here are some good resources to start</h1>
-      </div>
-    </div>
-  }
-}
 
 export default App

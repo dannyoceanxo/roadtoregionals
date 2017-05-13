@@ -1,5 +1,6 @@
 @import 'utility';
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
@@ -12,7 +13,7 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
   background-image: url(../../public/images/brick.jpg);
-  font-family: Merriweather;
+  font-family: Montserrat;
 }
 
 .introtext {
@@ -21,14 +22,43 @@ body {
   text-align: center;
   padding-top: 50px;
 }
-.experienceLevel {
+.noviceIntro {
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  text-align: center;
+  padding-top: 50px;
+}
+.mobility {
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  text-align: center;
+  padding-top: 50px;
+}
+.cf813 {
+  text-align: center;
+}
+.camp {
+  text-align: center;
+}
+.experiencedAthlete{
   color: white;
   text-shadow: 2px 2px #ff0000;
   padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
-  display: flex;
-  justify-content: space-between;
+  //display: flex;
+  //justify-content: space-between;
+  text-align: center;
+}
+.noviceAthlete{
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  //display: flex;
+  //justify-content: space-between;
+  text-align: center;
 }
 .submitButtons {
   display: flex;
@@ -36,28 +66,15 @@ body {
   padding-left: 250px;
   padding-right: 250px;
 }
-.homePhotos {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 200px;
-  padding-top: 50px;
+.gamesLogo {
+  padding-bottom: 5px;
+}
+.cfLogo {
+  padding-bottom: 5px;
 }
 .cigarLogo {
   padding-top: 50px;
   text-align: center;
-}
-
-.stuffilike {
-  background-color: #7a2f2c;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 1em;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 1em;
-  padding-left: 1em;
 }
 footer {
   align-items: center;
