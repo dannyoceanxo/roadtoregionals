@@ -14,8 +14,21 @@ body {
   font: $base-text-size / 1 $base-font-family;
   background-image: url(../../public/images/brick.jpg);
   font-family: Montserrat;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
 }
-
+.angrybrad {
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  text-align: center;
+  padding-top: 50px;
+}
+.novicemain {
+  background-image: url(../../public/images/kettlebell.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .introtext {
   color: white;
   text-shadow: 2px 2px #ff0000;
@@ -28,11 +41,20 @@ body {
   text-align: center;
   padding-top: 50px;
 }
+.error {
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  text-align: center;
+  padding-top: 50px;
+}
 .mobility {
   color: white;
   text-shadow: 2px 2px #ff0000;
   text-align: center;
   padding-top: 50px;
+}
+.bellaprana {
+  padding-top: 20px;
 }
 .cf813 {
   text-align: center;
