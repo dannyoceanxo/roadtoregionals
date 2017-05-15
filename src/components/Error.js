@@ -4,10 +4,14 @@ class Error extends Component {
   render () {
     return <div>
       <div className='error'>
-        <h1>Oh no, you broke the internet</h1>
-        <h3>Click on Kyra's face to return to safety</h3>
-        <div className='kyra'>
-          <a href='http://cigarcitycrossfit.com'><img src='/images/kyra.PNG' /></a>
+        {/* <h1>Oh no, you broke the internet</h1> */}
+        {/* <h3>Click on Kyra's face to return to safety</h3> */}
+        {/* <div className='kyra'> */}
+        {/* <a href='http://cigarcitycrossfit.com'><img src='/images/kyra.PNG' /></a> */}
+        <h1>ATHLETES, it seems Mike and I have broken the internet</h1>
+        <h3>Go hit the 400 while we figure out how to fix this</h3>
+        <div className='benandmike'>
+          <a href='http://cigarcitycrossfit.com'><img src='/images/benandmike.JPG' /></a>
         </div>
       </div>
     </div>

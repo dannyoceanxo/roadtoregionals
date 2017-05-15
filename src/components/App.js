@@ -1,30 +1,27 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import ScoreInput from './ScoreInput'
 
 class App extends Component {
   render () {
-    return <div className='novicemain'>
-      <div className='noviceIntro'>
-        <h1>Never done CrossFit before?  Here are some good resources to get you started</h1>
-      </div>
-      <div className='cf813'>
-        <a href='http://crossfit813.com'><img src='/images/cf813.jpg' height='205px' width='215px' border-radius='2em' /></a>
-      </div>
-      <div className='cigarLogo'>
-        <a href='http://cigarcitycrossfit.com'><img src='/images/cigarcity.png' height='205px' width='215px' /></a>
-      </div>
-      <div className='mobility'>
-        <h2>Here's are some great places to work on your mobility.   Jamie's hip-hop flow class will rock your world</h2>
-        <div className='camp'>
-          <a href='http://camptampa.com'><img src='/images/camp.png' /></a>
+    return <Router>
+      <div className='experiencedMain'>
+        <header>
+          <div className='experiencedIntro'>
+            <h1>Let's get started on the Road to Regionals.  Enter your previous Open scores to see where we can help</h1>
+          </div>
+        </header>
+        <Route path='/scores/:workout' component={ScoreInput} />
+        <div className='socialMedia'>
+          <a href='https://www.instagram.com/dannyoceanxo/'><img src='/images/instagram2.png' height='50px' width='50px' /></a>
+          <a href='https://github.com/dannyoceanxo/'><img src='/images/waltercat.png' height='50px' width='50px' /></a>
+          <a href='http://cigarcitycrossfit.com/'><img src='/images/cigarcity.png' height='50px' width='50px' /></a>
         </div>
-        <div className='bellaprana'>
-          <a href='bellaprana.com'><img src='images/bellaprana.png' /></a>
-        </div>
+        <footer>&copy; dannyoceanxo & Cigar City Crossfit, 2017</footer>
       </div>
-      <footer>&copy; dannyoceanxo & Cigar City Crossfit, 2017</footer>
-    </div>
+    </Router>
   }
-  }
+}
 
 // class App extends Component {
 //  render () {

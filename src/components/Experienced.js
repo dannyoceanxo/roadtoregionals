@@ -2,32 +2,61 @@ import React, { Component } from 'react'
 
 class Experienced extends Component {
   render () {
-    return <div>
-      <div className='introtext'>
-        <h1>So you want to make Regionals?</h1>
+    return <div className='experiencedMain'>
+      <div className='experiencedIntro'>
+        {/* <h1>Let's get started on the Road to Regionals.  Enter your previous Open scores to see where we can help</h1> */}
       </div>
-      <div className='experiencedAthlete'>
-        <p>Experienced CrossFit athlete?  Start here to input your past Open scores</p>
-        <img src='/images/gameslogo.svg' />
-        <div className='experiencedButton'>
-          <button className='experiencedButton' onClick=''>Click here</button>
+      <div className='openScoresInput'>
+        <div className='seventeenPointOne openScore' >
+          <textarea className='171Input' onSubmit='' placeholder='17.1' />
+          <div className='171image'>
+            <img src='/images/open171.jpg' width='800px' height='450px' />
+          </div>
         </div>
-      </div>
-      <div className='noviceAthlete'>
-        <p>New to CrossFit?  Check out these resources to get started</p>
-        <img src='/images/crossfitlogo.png' />
-        <div className='noviceSelection'>
-          <button className='noviceButton' onClick=''>Click here</button>
+        {/* <div className='seventeenPointTwo openScore'> */}
+        {/* <textarea className='172Input' onSubmit='' placeholder='17.2' /> */}
+        {/* <img src='/images/open172.png' />
         </div>
+        <div className='seventeenpointThree openScore'>
+          <textarea className='173Input' onSubmit='' placeholder='17.3' />
+          <img src='/images/open173.png' />
+        </div>
+        <div className='seventeenPointFour openScore'>
+          <textarea className='174Input' onSubmit='' placeholder='17.4' />
+          <img src='/images/open174.png' />
+        </div>
+        <div className='seventeenPointFive openScore'>
+          <textarea className='175Input' onSubmit='' placeholder='17.5' />
+          <img src='/images/open175.jpg' />
+        </div> */}
+        {/* <div className='seventeenPointTwo openScore'>
+          <img src='/images/open172.png' />
+        </div>
+        <div className='172textBox'>
+          <textarea className='172Input' onSubmit='' placeholder='17.2' />
+        </div>
+        <div className='seventeenpointThree openScore'>
+          <img src='/images/open173.png' />
+        </div>
+        <div className='173textBox'>
+          <textarea className='173Input' onSubmit='' placeholder='17.3' />
+        </div>
+        <div className='seventeenPointFour openScore'>
+          <img src='/images/open174.png' />
+        </div>
+        <div className='174textBox'>
+          <textarea className='174Input' onSubmit='' placeholder='17.4' />
+        </div>
+        <div className='seventeenPointFive openScore'>
+          <img src='/images/open175.jpg' />
+        </div>
+        <div className='175textBox'>
+          <textarea className='175Input' onSubmit='' placeholder='17.5' />
+        </div> */}
       </div>
-      <div className='cigarLogo'>
-        <a href='http://cigarcitycrossfit.com'><img src='/images/cigarcity.png' height='205px' width='215px' /></a>
-      </div>
-      <footer>
-        <h5>&copy; Cigar City CrossFit & @dannyoceanxo, 2017</h5>
-      </footer>
+      <footer>&copy; dannyoceanxo & Cigar City Crossfit, 2017</footer>
     </div>
   }
-}
+  }
 
 export default Experienced
