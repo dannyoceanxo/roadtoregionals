@@ -9,7 +9,7 @@ class Error extends Component {
         {/* <div className='kyra'> */}
         {/* <a href='http://cigarcitycrossfit.com'><img src='/images/kyra.PNG' /></a> */}
         <h1>ATHLETES, it seems Mike and I have broken the internet</h1>
-        <h3>Go hit the 400 while we figure out how to fix this</h3>
+        <h3>Go hit the 404 while we figure out how to fix this</h3>
         <div className='benandmike'>
           <a href='http://cigarcitycrossfit.com'><img src='/images/benandmike.JPG' /></a>
         </div>
