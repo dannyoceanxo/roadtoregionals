@@ -22,7 +22,7 @@ class Error extends Component {
   //  <div className='error'>
   //    <h1>Oh no, you've upset Angry Brad</h1>
   //    <h3>Click on his abs to make him smile again</h3>
-  //    <div className='angrybrad'>
+  //    <div className='angryBrad'>
   //      <a href='http://trainingthinktank.com'><img src='/images/angrybrad.PNG' height='500px' /></a>
   //    </div>
   //  </div>
