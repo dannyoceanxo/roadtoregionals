@@ -9,22 +9,26 @@ class App extends Component {
   render () {
     return <Router>
       <div>
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/scores/:workout' component={ScoreInput} />
-          <Route path='/results/:improvements' component={ScoreOutput} />
-          <Route path='/novice' component={Novice} />
-          {/* <Route path='/final' component={Final} /> */}
-        </Switch>
+        <main>
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/scores/:workout' component={ScoreInput} />
+            <Route path='/results/:improvements' component={ScoreOutput} />
+            <Route path='/novice' component={Novice} />
+            {/* <Route path='/final' component={Final} /> */}
+          </Switch>
+        </main>
         {/* <div className='171tips'>
         <h2>17.1 was a test of pure aerobic capacity.  If you felt like you were about to fall over and die as you were working, it's time to build your aerobic base</h2>
       </div> */}
-        <div className='socialMedia'>
-          <a href='https://www.instagram.com/dannyoceanxo/'><img src='/images/instagram2.png' height='50px' width='50px' /></a>
-          <a href='https://github.com/dannyoceanxo/'><img src='/images/waltercat.png' height='50px' width='50px' /></a>
-          <a href='http://cigarcitycrossfit.com/'><img src='/images/cigarcity.png' height='50px' width='50px' /></a>
-        </div>
-        <footer>&copy; dannyoceanxo & Cigar City Crossfit, 2017</footer>
+        <footer>
+          <div className='socialMedia'>
+            <a href='https://www.instagram.com/dannyoceanxo/'><img src='/images/instagram2.png' height='50px' width='50px' /></a>
+            <a href='https://github.com/dannyoceanxo/'><img src='/images/waltercat.png' height='50px' width='50px' /></a>
+            <a href='http://cigarcitycrossfit.com/'><img src='/images/cigarcity.png' height='50px' width='50px' /></a>
+          </div>
+          &copy; dannyoceanxo & Cigar City Crossfit, 2017
+        </footer>
       </div>
     </Router>
   }
