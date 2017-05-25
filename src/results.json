@@ -1,0 +1,81 @@
+{
+  "171": [
+    {
+      "min": 0,
+      "max": 11.24,
+      "result": "You suck try harder."
+    },
+    {
+      "min": 11.25,
+      "max": 16.00,
+      "result": "Barely there, do better."
+    },
+    {
+      "min": 16.01,
+      "max": 20.00,
+      "result": "You qualified, but you can do better if you want to win the games."
+    },
+    {
+      "min": 20.01,
+      "max": 1000.00,
+      "result": "#tigersblood"
+    }
+  ]
+}
+{
+  "172": [
+    {
+      "min": 0,
+      "max": 90,
+      "result": "Boo, you suck"
+    },
+    {
+      "min": 91,
+      "max": 150,
+      "result": "Not bad not bad at all"
+    },
+    {
+      "min": 151,
+      "max": 2500,
+      "result": "You would have qualified"
+    }
+  ]
+}
+{
+  "174": [
+    {
+      "min": 0,
+      "max": 150,
+      "result": "You're the worst"
+    },
+    {
+      "min": 151,
+      "max": 275,
+      "result": "Passable, but you can do better"
+    },
+    {
+      "min": 276,
+      "max": 375,
+      "result": "Now you're cooking with grease"
+    }
+  ]
+}
+{
+  "175": [
+    {
+      "min": 0,
+      "max": 15,
+      "result": "You should just quit"
+    }
+    {
+      "min": 15.01,
+      "max": 48,
+      "result": "Middle of the pack"
+    }
+    {
+      "min": 48.01,
+      "max": 70,
+      "result": "Killin it"
+    }
+  ]
+}
