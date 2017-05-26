@@ -4,6 +4,7 @@ import ScoreInput from './ScoreInput'
 import ScoreOutput from './ScoreOutput'
 import Home from './Home'
 import Novice from './Novice'
+import ErrorPage from './ErrorPage'
 
 class App extends Component {
   render () {
@@ -15,6 +16,7 @@ class App extends Component {
             <Route path='/scores/:workout' component={ScoreInput} />
             <Route path='/results/:improvements' component={ScoreOutput} />
             <Route path='/novice' component={Novice} />
+            <Route path='/error' component={ErrorPage} />
             {/* <Route path='/final' component={Final} /> */}
           </Switch>
         </main>
@@ -25,9 +27,9 @@ class App extends Component {
           <div className='socialMedia'>
             <a href='https://www.instagram.com/dannyoceanxo/'><img src='/images/instagram2.png' height='50px' width='50px' /></a>
             <a href='https://github.com/dannyoceanxo/'><img src='/images/waltercat.png' height='50px' width='50px' /></a>
-            <a href='http://cigarcitycrossfit.com/'><img src='/images/cigarcity.png' height='50px' width='50px' /></a>
+            {/* <a href='http://cigarcitycrossfit.com/'><img src='/images/cigarcity.png' height='50px' width='50px' /></a> */}
           </div>
-          &copy; dannyoceanxo & Cigar City Crossfit, 2017
+          &copy; dannyoceanxo, 2017
         </footer>
       </div>
     </Router>

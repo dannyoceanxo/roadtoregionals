@@ -17,7 +17,7 @@ class Novice extends Component {
         </div>
         <div className='camp'>
           <a href='http://camptampa.com'><img src='/images/camp.png' height='205px' width='215px' /></a>
-          <p>Mobility is your friend.  On your off days come in here to get a stretch and some variation from training.</p>
+          <p>Mobility is your friend.  Come in here on your off days to get a stretch and some variation from training.</p>
         </div>
         <div className='nutrition'>
           <a href='http://cigarcitycrossfit.com/services/nutrition-planning'><img src='/images/mealplan.jpg' height='205px' /></a>
@@ -26,6 +26,7 @@ class Novice extends Component {
       </div>
       <div className='whatIsCrossfit'>
         <iframe src='https://www.youtube.com/embed/mlVrkiCoKkg' />
+        <iframe src='https://www.youtube.com/embed/Nz_wcB0lYTs' />
       </div>
     </div>
   }

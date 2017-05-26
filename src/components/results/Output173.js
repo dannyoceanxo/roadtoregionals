@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import store from '../../store'
+
 class Output173 extends Component {
   render () {
     return <div className='Output173'>
@@ -11,6 +13,7 @@ class Output173 extends Component {
         <div className='resultsAndTips'>
           <h2>17.3 was entirely based on strength under fatigue as well as Olympic lifting capability.  Here's a good way to improve your snatch cycling:</h2>
           <h4><a href='https://spark.adobe.com/page/4WHSyiXBYnlxl/'>"The Skill of Barbell Cycling" by Training Think Tank</a></h4>
+          <div>{store.resultFor('173').result.split('\n').map((p, i) => <p key={i}>{p}</p>)}</div>
         </div>
       </div>
       <div className='resultsButtons'>

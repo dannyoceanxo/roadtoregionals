@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import store from '../../store'
+
 class Output172 extends Component {
   render () {
     return <div className='Output172'>
@@ -17,6 +19,7 @@ class Output172 extends Component {
           <h4>5 pull-ups</h4>
           <h4>10 push-ups</h4>
           <h4>15 squats</h4>
+          <div>{store.resultFor('172').result.split('\n').map((p, i) => <p key={i}>{p}</p>)}</div>
         </div>
       </div>
       <div className='resultsButtons'>
