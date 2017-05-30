@@ -11,9 +11,10 @@ class Output172 extends Component {
           <img src={`/images/results172.png`} width='800px' height='450px' />
         </div>
         <div className='resultsAndTips'>
-
-          <h2>Your score: 150 reps</h2>
-          <h2>Minimum score needed to make it to Regionals: 190 reps</h2>
+          <div className='yourMin172'>
+            <h2>Your score: 150 reps</h2>
+            <h2>Minimum score needed to make it to Regionals: 190 reps</h2>
+          </div>
           <h3>17.2 was largely based on your ability to pace yourself as well as do gymnastic movements while fatigued.  Here's a test workout for a similar timeframe:</h3>
           <h4>Cindy: 20 min AMRAP</h4>
           <h4>5 pull-ups</h4>

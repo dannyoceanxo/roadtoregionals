@@ -11,7 +11,7 @@ class ErrorPage extends Component {
         <h1>ATHLETES, it seems Mike and I have broken the internet</h1>
         <h3>Go hit the 404 while we figure out how to fix this</h3>
         <div className='benandmike'>
-          <a href='http://cigarcitycrossfit.com'><img src='/images/benandmike.JPG' /></a>
+          <a href='http://localhost:3000/'><img src='/images/benandmike.JPG' height='500px' width='400px' /></a>
         </div>
       </div>
     </div>

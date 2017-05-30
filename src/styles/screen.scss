@@ -9,13 +9,18 @@ html {
   @include full-height;
 }
 
+a:link, a:visited {
+  color: tomato;
+  text-shadow: 1px 1px #495867;
+}
+
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
   background-image: url(../../public/images/brick.jpg);
   font-family: Montserrat;
   color: white;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px tomato;
 }
 header {
   background-color: #535559;
@@ -39,14 +44,18 @@ header {
 }
 .resultsButtons {
   display: flex;
-  justify-content: center;
   text-align: center;
+  justify-content: space-between;
+  padding: 50px;
+  font-size: 2em;
+  color: tomato;
 }
 .resultsAndTips {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding-left: 15px;
 }
 .socialMedia {
   text-align: center;
@@ -81,6 +90,18 @@ header {
   margin: 1em;
   //border: 1px solid white;
 }
+.yourMin171 {
+  background-color: #313638;
+  border-radius: 5px;
+}
+.example171 {
+  background-color: #495867;
+  border-radius: 5px;
+}
+.amrap171 {
+  background-color: #313638;
+  border-radius: 5px;
+}
 .171textBox {
   justify-content: center;
   align-items: center;
@@ -93,12 +114,14 @@ header {
   padding-right: 50px;
 }
 .backButton {
-  color: red;
+  color: tomato;
+  text-shadow: 2px 2px #495867;
   border: none;
   background-color: transparent;
 }
 .forwardButton {
-  color: red;
+  color: tomato;
+  text-shadow: 2px 2px #495867;
   border: none;
   background-color: transparent;
 }
@@ -113,6 +136,7 @@ header {
 }
 .171image {
   padding-left: 4px;
+  background-color: #495867;
 }
 .novicemain {
 //  background-image: url(../../public/images/kettlebell.jpg);
@@ -148,10 +172,58 @@ header {
 }
 .cf813 {
   //text-align: justify;
-  padding-top: 20px
+  padding-top: 20px;
+  background-color: #ecc8af;
+  border-radius: 1em;
+}
+.trainingThinkTank171 {
+  text-shadow: none;
+  color: red;
+  background-color: #495867;
+  border-radius: 5px;
+}
+.trainingThinkTank173 {
+  text-shadow: none;
+  color: red;
+  background-color: #93a8ac;
+}
+.trainingThinkTank174 {
+  text-shadow: none;
+  background-color: #83e8ba;
+  border-radius: 5px;
+}
+.rat173 {
+  background-color:  #424b54;
+  border-radius: 5px;
+}
+.rat174 {
+  background-color: #689689;
+  border-radius: 5px;
+}
+.rat175 {
+  background-color: #d3dfb8;
+  border-radius: 5px;
+}
+.training175 {
+  background-color: #574d68;
+  border-radius: 5px;
 }
 .camp {
   //text-align: center;
+  background-color: #495867;
+  border-radius: 1em;
+
+  img {
+    margin-top: 12px;
+  }
+}
+.nutrition {
+  background-color: #c18c5d;
+  border-radius: 1em;
+
+  img {
+    margin-top: 10px;
+  }
 }
 .experiencedAthlete{
   color: white;
@@ -192,7 +264,12 @@ header {
   padding-bottom: 5px;
 }
 .cigarLogo {
+background-color: #ce796b;
+border-radius: 1em;
 
+  img {
+    margin-top: 8px;
+  }
 }
 footer {
   margin: 1em;

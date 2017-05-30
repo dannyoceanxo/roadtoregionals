@@ -12,13 +12,21 @@ class Output171 extends Component {
             <img src={`/images/results171.png`} width='800px' height='450px' />
           </div>
           <div className='resultsAndTips'>
-            <h2>Your score: {store.scoreFor('171')}</h2>
-            <h2>Minimum score needed to make it to Regionals: 10:17</h2>
-            <h3>Since 17.1 was entirely aerobic capacity, here is an example workout to build a base and test yourself in a month:</h3>
-            <h4>60 min AMRAP</h4>
-            <h4>Run 400m</h4>
-            <h4>Row 1000m</h4>
-            <h4><a href='https://spark.adobe.com/page/DYpTj4ZH9q2zI/'>Here's a great article on building an engine from the guys at Training Think Tank</a></h4>
+            <div className='yourMin171'>
+              <h2>Your score: {store.scoreFor('171')}</h2>
+              <h2>Minimum score needed to make it to Regionals: 10:17</h2>
+            </div>
+            <div className='example171'>
+              <h3>Since 17.1 was entirely aerobic capacity, here is an example workout to build a base and test yourself in a month:</h3>
+            </div>
+            <div className='amrap171'>
+              <h4>60 min AMRAP</h4>
+              <h4>Run 400m</h4>
+              <h4>Row 1000m</h4>
+            </div>
+            <div className='trainingThinkTank171'>
+              <h4><a href='https://spark.adobe.com/page/DYpTj4ZH9q2zI/'>Here's a great article on building an engine from the guys at Training Think Tank</a></h4>
+            </div>
             <div>{store.resultFor('171').result.split('\n').map((p, i) => <p key={i}>{p}</p>)}</div>
             {/* <h2>Your score: 150 reps</h2>
           <h2>Minimum score needed to make it to Regionals: 190 reps</h2>

@@ -11,8 +11,12 @@ class Output174 extends Component {
           <img src={`/images/results174.png`} width='800px' height='450px' />
         </div>
         <div className='resultsAndTips'>
-          <h2>As a repeat workout, 17.4 was a great opportunity to see your progress over the course of the year.</h2>
-          <h4><a href='https://spark.adobe.com/page/SlAQbbi4QLoEL/'>Here's an article on making sure your competitiveness isn't getting in the way of your progress</a></h4>
+          <div className='rat174'>
+            <h2>As a repeat workout, 17.4 was a great opportunity to see your progress over the course of the year.</h2>
+          </div>
+          <div className='trainingThinkTank174'>
+            <h4><a href='https://spark.adobe.com/page/SlAQbbi4QLoEL/'>Here's an article on making sure your competitiveness isn't getting in the way of your progress</a></h4>
+          </div>
           <div>{store.resultFor('174').result.split('\n').map((p, i) => <p key={i}>{p}</p>)}</div>
         </div>
       </div>

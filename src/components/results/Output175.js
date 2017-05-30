@@ -12,12 +12,16 @@ class Output175 extends Component {
             <img src={`/images/results175.png`} width='800px' height='450px' />
           </div>
           <div className='resultsAndTips'>
-            <h2>17.5 was about pacing.  Come out too hot and you'll be in a heap on the ground before you know it.  Here's a good test workout for your pacing:</h2>
-            <h4>DT: 5 RFT</h4>
-            <h4>12 deadlifts</h4>
-            <h4>9 hang power cleans</h4>
-            <h4>6 shoulder to overhead</h4>
-            <h4>155/105</h4>
+            <div className='rat175'>
+              <h2>17.5 was about pacing.  Come out too hot and you'll be in a heap on the ground before you know it.  Here's a good test workout for your pacing:</h2>
+            </div>
+            <div className='training175'>
+              <h4>DT: 5 RFT</h4>
+              <h4>12 deadlifts</h4>
+              <h4>9 hang power cleans</h4>
+              <h4>6 shoulder to overhead</h4>
+              <h4>155/105</h4>
+            </div>
             <div>{store.resultFor('175').result.split('\n').map((p, i) => <p key={i}>{p}</p>)}</div>
           </div>
         </div>
