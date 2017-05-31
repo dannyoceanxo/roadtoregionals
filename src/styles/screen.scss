@@ -94,6 +94,14 @@ header {
   background-color: #313638;
   border-radius: 5px;
 }
+.yourMin172 {
+  background-color: #a63d40;
+  border-radius: 5px;
+}
+.training172 {
+  background-color: #2b4570;
+  border-radius: 5px;
+}
 .example171 {
   background-color: #495867;
   border-radius: 5px;
@@ -228,12 +236,13 @@ header {
 .experiencedAthlete{
   color: white;
   text-shadow: 2px 2px #ff0000;
-  padding-top: 20px;
+  //padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   //display: flex;
   //justify-content: space-between;
   text-align: center;
+  background-color: #a63d40;
 }
 .whatIsCrossfit {
   display: flex;
@@ -244,12 +253,14 @@ header {
 .noviceAthlete{
   color: white;
   text-shadow: 2px 2px #ff0000;
-  padding-top: 80px;
+  //padding-top: 80px;
   padding-left: 30px;
   padding-right: 30px;
   //display: flex;
   //justify-content: space-between;
   text-align: center;
+  background-color: #2b4570;
+  //padding-bottom: 60px;
 }
 .submitButtons {
   display: flex;
