@@ -16,8 +16,8 @@ class Home extends Component {
         <Link to='/novice' className='noviceButton'>Click here</Link>
       </div>
       <div className='homePhotos'>
-        <img src='/images/crossfitlogo.png' width='400px' />
-        <img src='/images/gameslogo.svg' />
+        <a href='https://www.crossfit.com/'><img src='/images/crossfitlogo.png' width='400px' /></a>
+        <a href='https://games.crossfit.com/'><img src='/images/gameslogo.svg' /></a>
       </div>
     </div>
   }
