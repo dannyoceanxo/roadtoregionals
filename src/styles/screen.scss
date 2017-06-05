@@ -136,6 +136,18 @@ header {
 .forwardArrow {
   padding-left: 50px;
 }
+.finalTTTparagraph {
+  background-color: #991515;
+}
+.finalTTT {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.finalOPEX {
+  display: flex;
+  flex-direction: row;justify-content: space-around;
+}
 .angryBrad {
   color: white;
   text-shadow: 2px 2px #ff0000;

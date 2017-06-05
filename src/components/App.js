@@ -5,6 +5,7 @@ import ScoreOutput from './ScoreOutput'
 import Home from './Home'
 import Novice from './Novice'
 import ErrorPage from './ErrorPage'
+import FinalPage from './FinalPage'
 
 class App extends Component {
   render () {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path='/results/:improvements' component={ScoreOutput} />
             <Route path='/novice' component={Novice} />
             <Route path='/error' component={ErrorPage} />
+            <Route path='/finalpage' component={FinalPage} />
             {/* <Route path='/final' component={Final} /> */}
           </Switch>
         </main>

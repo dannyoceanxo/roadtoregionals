@@ -30,7 +30,7 @@ class Output175 extends Component {
             <Link to={`/results/174`} className='backButton'><i className='fa fa-chevron-left' aria-hidden='true' /></Link>
           </div>
           <div className='forwardArrow'>
-            <Link to={`/results/171`} className='forwardButton'><i className='fa fa-chevron-right' aria-hidden='true' /></Link>
+            <Link to={`/finalpage`} className='forwardButton'><i className='fa fa-chevron-right' aria-hidden='true' /></Link>
           </div>
         </div>
       </div>
