@@ -9,7 +9,7 @@ class Novice extends Component {
       <div className='noviceResources'>
         <div className='cf813'>
           <a href='http://crossfit813.com'><img src='/images/cf813.jpg' height='205px' width='215px' border-radius='2em' /></a>
-          <p>Running since 2011, CrossFit 813 is the largest gym in the Tampa area.  If you're looking for a competitive environment, this is the place to go.</p>
+          <p>Established in 2011, CrossFit 813 is the largest gym in the Tampa area.  If you're looking for a competitive environment, this is the place to go.</p>
         </div>
         <div className='cigarLogo'>
           <a href='http://cigarcitycrossfit.com'><img src='/images/cigarcity.png' height='205px' width='215px' /></a>
