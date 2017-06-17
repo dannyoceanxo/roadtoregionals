@@ -11,6 +11,9 @@ class Output173 extends Component {
           <img src={`/images/results173.png`} width='800px' height='450px' />
         </div>
         <div className='resultsAndTips'>
+          <div className='yourMin171'>
+            <h2>Minimum score needed to make it to Regionals: 193 reps</h2>
+          </div>
           <div className='rat173'>
             <h2>17.3 was entirely based on strength under fatigue as well as Olympic lifting capability.  Here's a good way to improve your snatch cycling:</h2>
           </div>

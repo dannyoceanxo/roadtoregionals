@@ -8,9 +8,12 @@ class Output174 extends Component {
     return <div className='Output174'>
       <div className={`results-174 openScore`} >
         <div className={`174image`}>
-          <img src={`/images/results174.png`} width='800px' height='450px' />
+          <img src={`/images/results174.png`} /> //width='800px' height='450px'
         </div>
         <div className='resultsAndTips'>
+          <div className='yourMin171'>
+            <h2>Minimum score needed to make it to Regionals: 277 reps</h2>
+          </div>
           <div className='rat174'>
             <h2>As a repeat workout, 17.4 was a great opportunity to see your progress over the course of the year.</h2>
           </div>

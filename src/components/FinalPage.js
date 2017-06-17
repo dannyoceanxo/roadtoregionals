@@ -14,8 +14,12 @@ class FinalPage extends Component {
         <h2>One of the original remote coaching facilities, OPEX Fitness was started in 1999 by James "OPT" Fitzgerald.  Current athletes include Marcus Filly, Lindsay Marshall, Danny Shenker, and Kevin Schuetz</h2>
       </div>
       <div className='finalPageStandards'>
-        <img src='/images/standardslist.PNG' width='300px' height='500px' />
+        <img src='/images/standardslist.PNG' width='375px' height='500px' />
         <h2>Here's an excellent list of standards one should be able to meet before considering competitor's training or an individual design.  You need to walk before you can run!</h2>
+      </div>
+      <div className='finalBBB'>
+        <a href='https://www.builtbybergeron.com/comptrain/'><img src='/images/builtbybergeron.png' width='400px' height='225px' /></a>
+        <h2>From the winningest coach in CrossFit history, Ben Bergeron, comes CompTrain.  Followed by over 3 dozen Regionals, Games, and Masters athletes, these workouts are all-encompassing and not to be taken lightly. </h2>
       </div>
       <div className='resultsButtons'>
         <div className='backArrow'>

@@ -13,8 +13,8 @@ class Output171 extends Component {
           </div>
           <div className='resultsAndTips'>
             <div className='yourMin171'>
-              <h2>Your score: {store.scoreFor('171')}</h2>
-              <h2>Minimum score needed to make it to Regionals: 10:17</h2>
+              {/* <h2>Your score: {store.scoreFor('171')}</h2> */}
+              <h2>Minimum score needed to make it to Regionals: 11:16</h2>
             </div>
             <div className='example171'>
               <h3>Since 17.1 was entirely aerobic capacity, here is an example workout to build a base and test yourself in a month:</h3>

@@ -12,6 +12,9 @@ class Output175 extends Component {
             <img src={`/images/results175.png`} width='800px' height='450px' />
           </div>
           <div className='resultsAndTips'>
+            <div className='yourMin171'>
+              <h2>Minimum score needed to make it to Regionals: 7:30</h2>
+            </div>
             <div className='rat175'>
               <h2>17.5 was about pacing.  Come out too hot and you'll be in a heap on the ground before you know it.  Here's a good test workout for your pacing:</h2>
             </div>

@@ -139,15 +139,6 @@ header {
 .finalTTTparagraph {
   background-color: #991515;
 }
-.finalTTT {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.finalOPEX {
-  display: flex;
-  flex-direction: row;justify-content: space-around;
-}
 .angryBrad {
   color: white;
   text-shadow: 2px 2px #ff0000;
@@ -193,7 +184,7 @@ header {
 .cf813 {
   //text-align: justify;
   padding-top: 20px;
-  background-color: #ecc8af;
+  background-color: #495867;
   border-radius: 1em;
 }
 .trainingThinkTank171 {
@@ -230,7 +221,7 @@ header {
 }
 .camp {
   //text-align: center;
-  background-color: #495867;
+  background-color: #ecc8af;
   border-radius: 1em;
 
   img {
@@ -250,6 +241,33 @@ header {
   text-align:justify;
   justify-content: center;
   margin-top: 30px;
+  background-color: #9aadbf;
+}
+.finalBBB {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: #6d98ba;
+}
+.finalTTT {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #d3b99f;
+  margin-top: 30px;
+}
+.finalOPEX {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #c17767;
+  margin-top: 30px;
+}
+.finalBBBlink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .experiencedAthlete{
   color: white;
